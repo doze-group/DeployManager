@@ -1,7 +1,0 @@
-D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Helpers\bin\Release\DeployManager.Helpers.dll
-D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Helpers\bin\Release\DeployManager.Helpers.pdb
-D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Helpers\bin\Release\DeployManager.Entities.dll
-D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Helpers\bin\Release\DeployManager.Entities.pdb
-D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Helpers\obj\Release\DeployManager.Helpers.csprojResolveAssemblyReference.cache
-D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Helpers\obj\Release\DeployManager.Helpers.dll
-D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Helpers\obj\Release\DeployManager.Helpers.pdb
