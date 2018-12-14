@@ -1,6 +1,5 @@
 @echo off
 git status
-
 MD tempF1
 CD tempF1
 for /F "usebackq tokens=1" %%A IN (`git config user.name`) do (
@@ -23,5 +22,5 @@ set p1=%git config user.name%
 echo %p1%
 set datestr=%month%_%day%_%year%
 REM tambien en la fecha se puede usar el %date%
-git commit -m "[%gituser%] [%datestr%] %commit% "
+git commit -m "[%gituser%] [%datestr%] %commit%"
 git push origin master
