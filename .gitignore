@@ -5,13 +5,16 @@
 
 data_to_release.json
 git-release.sh
-test.bat
+bat_deploy.bat
+
+
 
 
 # User-specific files
 *.suo
 *.user
 *.sln.docstates
+
 
 # Build results
 [Dd]ebug/
