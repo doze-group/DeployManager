@@ -1,0 +1,27 @@
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Controllers\obj\Debug\DeployManager.Controllers.csprojResolveAssemblyReference.cache
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Controllers\bin\Debug\DeployManager.Controllers.dll
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Controllers\bin\Debug\DeployManager.Controllers.pdb
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Controllers\bin\Debug\DeployManager.Entities.dll
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Controllers\bin\Debug\DeployManager.Helpers.dll
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Controllers\bin\Debug\DeployManager.Entities.pdb
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Controllers\bin\Debug\DeployManager.Helpers.pdb
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Controllers\obj\Debug\DeployManager.Controllers.dll
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Controllers\obj\Debug\DeployManager.Controllers.pdb
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Controllers\bin\Debug\DeployManager.Controllers.dll
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Controllers\bin\Debug\DeployManager.Controllers.pdb
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Controllers\bin\Debug\DeployManager.Entities.dll
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Controllers\bin\Debug\DeployManager.Helpers.dll
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Controllers\bin\Debug\DeployManager.Entities.pdb
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Controllers\bin\Debug\DeployManager.Helpers.pdb
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Controllers\obj\Debug\DeployManager.Controllers.csprojResolveAssemblyReference.cache
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Controllers\obj\Debug\DeployManager.Controllers.dll
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Controllers\obj\Debug\DeployManager.Controllers.pdb
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Controllers\bin\Debug\DeployManager.Controllers.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Controllers\bin\Debug\DeployManager.Controllers.pdb
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Controllers\bin\Debug\DeployManager.Entities.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Controllers\bin\Debug\DeployManager.Helpers.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Controllers\bin\Debug\DeployManager.Entities.pdb
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Controllers\bin\Debug\DeployManager.Helpers.pdb
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Controllers\obj\Debug\DeployManager.Controllers.csprojResolveAssemblyReference.cache
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Controllers\obj\Debug\DeployManager.Controllers.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Controllers\obj\Debug\DeployManager.Controllers.pdb

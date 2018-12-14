@@ -1,0 +1,54 @@
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Tests.dll
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Tests.pdb
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Controllers.dll
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Entities.dll
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Helpers.dll
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Controllers.pdb
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Entities.pdb
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Helpers.pdb
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Tests\obj\Debug\DeployManager.Tests.csprojResolveAssemblyReference.cache
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Tests\obj\Debug\DeployManager.Tests.dll
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Tests\obj\Debug\DeployManager.Tests.pdb
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Tests.dll
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Tests.pdb
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Controllers.dll
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Entities.dll
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Helpers.dll
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Controllers.pdb
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Entities.pdb
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Helpers.pdb
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Tests\obj\Debug\DeployManager.Tests.csprojResolveAssemblyReference.cache
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Tests\obj\Debug\DeployManager.Tests.dll
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Tests\obj\Debug\DeployManager.Tests.pdb
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Tests.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Tests.pdb
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Controllers.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Entities.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Helpers.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Controllers.pdb
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Entities.pdb
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Tests\bin\Debug\DeployManager.Helpers.pdb
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Tests\obj\Debug\DeployManager.Tests.csprojResolveAssemblyReference.cache
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Tests\obj\Debug\DeployManager.Tests.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Tests\obj\Debug\DeployManager.Tests.pdb

@@ -1,0 +1,9 @@
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Controllers\bin\Release\DeployManager.Controllers.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Controllers\bin\Release\DeployManager.Controllers.pdb
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Controllers\bin\Release\DeployManager.Entities.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Controllers\bin\Release\DeployManager.Helpers.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Controllers\bin\Release\DeployManager.Entities.pdb
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Controllers\bin\Release\DeployManager.Helpers.pdb
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Controllers\obj\Release\DeployManager.Controllers.csprojResolveAssemblyReference.cache
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Controllers\obj\Release\DeployManager.Controllers.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Controllers\obj\Release\DeployManager.Controllers.pdb

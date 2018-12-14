@@ -1,0 +1,13 @@
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Entities\bin\Debug\DeployManager.Entities.dll
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Entities\bin\Debug\DeployManager.Entities.pdb
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Entities\obj\Debug\DeployManager.Entities.dll
+D:\Copia de Seguridad (Mis Documentos)\Escritorio\DeployManager\DeployManager.Entities\obj\Debug\DeployManager.Entities.pdb
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Entities\bin\Debug\DeployManager.Entities.dll
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Entities\bin\Debug\DeployManager.Entities.pdb
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Entities\obj\Debug\DeployManager.Entities.csprojResolveAssemblyReference.cache
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Entities\obj\Debug\DeployManager.Entities.dll
+D:\Software\ProyectosWEB\C#\DeployManager\DeployManager.Entities\obj\Debug\DeployManager.Entities.pdb
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Entities\bin\Debug\DeployManager.Entities.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Entities\bin\Debug\DeployManager.Entities.pdb
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Entities\obj\Debug\DeployManager.Entities.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Entities\obj\Debug\DeployManager.Entities.pdb

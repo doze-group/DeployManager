@@ -1,0 +1,15 @@
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.App\bin\Release\DeployManager.App.exe.config
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.App\bin\Release\DeployManager.App.exe
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.App\bin\Release\DeployManager.App.pdb
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.App\bin\Release\DeployManager.Controllers.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.App\bin\Release\DeployManager.Entities.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.App\bin\Release\DeployManager.Helpers.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.App\bin\Release\DeployManager.Controllers.pdb
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.App\bin\Release\DeployManager.Entities.pdb
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.App\bin\Release\DeployManager.Helpers.pdb
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.App\obj\Release\DeployManager.App.Form.resources
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.App\obj\Release\DeployManager.App.Properties.Resources.resources
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.App\obj\Release\DeployManager.App.csproj.GenerateResource.Cache
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.App\obj\Release\DeployManager.App.exe
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.App\obj\Release\DeployManager.App.pdb
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.App\obj\Release\DeployManager.App.csprojResolveAssemblyReference.cache

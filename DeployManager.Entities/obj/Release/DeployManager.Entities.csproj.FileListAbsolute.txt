@@ -1,0 +1,4 @@
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Entities\bin\Release\DeployManager.Entities.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Entities\bin\Release\DeployManager.Entities.pdb
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Entities\obj\Release\DeployManager.Entities.dll
+D:\Software\ProyectosWEB\C#\TFS\DeployManager\DeployManager.Entities\obj\Release\DeployManager.Entities.pdb
