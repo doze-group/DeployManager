@@ -1,8 +1,13 @@
 language: csharp
 solution: DeployManager.sln
+mono:
+  - latest
+  - 3.12.0
+  - 3.10.0
+...
 install:
   - nuget restore DeployManager.sln
-  - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
+  - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
 script:
   - xbuild /p:Configuration=Release DeployManager.sln
-  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./DeployManager.Tests/bin/Release/DeployManager.Tests.dll
+  - mono ./testrunner/xunit.runners.1.9.2/tools/xunit.console.clr4.exe ./DeployManager.Tests/bin/Release/DeployManager.Tests.dll
