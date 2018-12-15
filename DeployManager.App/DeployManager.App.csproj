@@ -106,9 +106,6 @@
   <ItemGroup>
     <Content Include="eryt.ico" />
     <Content Include="Goodstuff-No-Nonsense-Free-Space-Rocket-launch.ico" />
-    <Content Include="sda.ico" />
-    <Content Include="startup %281%29.ico" />
-    <Content Include="startup.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

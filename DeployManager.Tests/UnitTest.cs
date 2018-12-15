@@ -10,7 +10,7 @@ namespace DeployManager.Tests
     {
         Controller controller;
         AppExec test_item;
-        
+
 
         public UnitTest()
         {
@@ -33,10 +33,6 @@ namespace DeployManager.Tests
         public void TestCreate()
         {
             Assert.IsTrue(controller.Create(item_validation(test_item)));
-          
-            Trace.WriteLine("after line");
-            //Console.ReadLine();
-          
         }
         [TestMethod]
         public void TestDelete()

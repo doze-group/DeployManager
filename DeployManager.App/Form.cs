@@ -40,7 +40,7 @@ namespace DeployManager.App
                 };
 
                 App.Create(appexec);
-                App.getAppItem_List().Serialize();
+                App.AppItem_List.Serialize();
                 tbl_paths.Rows.Add(App.rowBase(appexec));
                 
             }
@@ -57,7 +57,7 @@ namespace DeployManager.App
             switch (item_col.Name)
             {
                 case "Tag":
-                    App.NameEvent(e, tbl_paths);
+                    App.TagEvent(e, tbl_paths);
                     break;
                 case "Deploy":
                     App.DeployEvent(e, tbl_paths);

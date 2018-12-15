@@ -10,7 +10,8 @@ namespace DeployManager
 {
     public static class Helpers
     {
-        const string FILE_NAME = "Cache.data";
+        const string FILE_NAME = "./Cache.data";
+        //C:\Users\%user%\AppData\Local\VirtualStore\Program Files (x86)\Rober19\DeployManager.Setup
         public static void Serialize<T>(this List<T> obj)
         {
             using (Stream stream = File.OpenWrite(FILE_NAME))

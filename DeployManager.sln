@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployManager.Controllers",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployManager.Tests", "DeployManager.Tests\DeployManager.Tests.csproj", "{2AD5D532-5E5C-4AD6-AF0B-83CAAB7D9DD2}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DeployManager.Setup", "DeployManager.Setup\DeployManager.Setup.vdproj", "{03A688B6-31F1-4C7B-B1A6-3927DC7BCFB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,29 +41,10 @@ Global
 		{2AD5D532-5E5C-4AD6-AF0B-83CAAB7D9DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AD5D532-5E5C-4AD6-AF0B-83CAAB7D9DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AD5D532-5E5C-4AD6-AF0B-83CAAB7D9DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A688B6-31F1-4C7B-B1A6-3927DC7BCFB4}.Debug|Any CPU.ActiveCfg = Debug
+		{03A688B6-31F1-4C7B-B1A6-3927DC7BCFB4}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 6
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://rober19dev.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = DeployManager.App\\DeployManager.App.csproj
-		SccProjectName1 = DeployManager.App
-		SccLocalPath1 = DeployManager.App
-		SccProjectUniqueName2 = DeployManager.Controllers\\DeployManager.Controllers.csproj
-		SccProjectName2 = DeployManager.Controllers
-		SccLocalPath2 = DeployManager.Controllers
-		SccProjectUniqueName3 = DeployManager.Entities\\DeployManager.Entities.csproj
-		SccProjectName3 = DeployManager.Entities
-		SccLocalPath3 = DeployManager.Entities
-		SccProjectUniqueName4 = DeployManager.Helpers\\DeployManager.Helpers.csproj
-		SccProjectName4 = DeployManager.Helpers
-		SccLocalPath4 = DeployManager.Helpers
-		SccProjectUniqueName5 = DeployManager.Tests\\DeployManager.Tests.csproj
-		SccProjectName5 = DeployManager.Tests
-		SccLocalPath5 = DeployManager.Tests
 	EndGlobalSection
 EndGlobal

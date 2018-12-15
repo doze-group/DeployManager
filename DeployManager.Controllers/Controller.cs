@@ -14,7 +14,12 @@ namespace DeployManager
     {
         private OpenFileDialog ofd = new OpenFileDialog();
 
-        List<AppExec> AppItem_List = new List<AppExec>();
+        private List<AppExec> appItem_List = new List<AppExec>();
+        public List<AppExec> AppItem_List
+        {
+            get => appItem_List;
+            set { appItem_List = value; }
+        }
 
         private const string Title_form = "DeployManager";
         private dynamic resMsg;
@@ -24,14 +29,14 @@ namespace DeployManager
             {
                 insert_name = "Insert the new NAME",
                 confirmQe_newName = "Are you shure that you wanna change item's NAME?",
-                name3 = "Are you shure that you wanna change item's PATH?",
-                name4 = "Are you shure that you wanna delete this item?",
-                name5 = "batch files (*.bat, *.exe)|*.bat; *.exe",
-                name6 = "",
-                name7 = "",
-                name8 = "",
-                name9 = "",
-                name10 = ""
+                confirmQe_newPath = "Are you shure that you wanna change item's PATH?",
+                confirmQe_Delete = "Are you shure that you wanna delete this item?",
+                filter_files_dialog = "batch files (*.bat, *.exe)|*.bat; *.exe",
+                Preview_format = "[ Name File: ] \n{0}\n\n[ Directory: ] \n>{1}\n\n[ FullPath: ] \n{2}\n\n[ ID: ] \n{3}\n\n[ Description: ] \n{4}",
+                Column_tag = "Tag",
+                Column_path = "Path",
+                Column_id = "ID",
+
             };
         }
 
@@ -75,17 +80,12 @@ namespace DeployManager
         {
             return AppItem_List.Find(x => x.Id == id);
         }
-        private int FindItemIndex(string id)
-        {
-            return AppItem_List.FindIndex(x => x.Id == id);
-        }
-        public List<AppExec> getAppItem_List() => AppItem_List;
+        private int FindItemIndex(string id) => AppItem_List.FindIndex(x => x.Id == id);
         public void Pre_Config(DataGridView tbl)
         {
-            ofd.Filter = resMsg.name5;
+            ofd.Filter = resMsg.filter_files_dialog;
             ListAll_tbl(tbl);
         }
-
         //this method works to get column value of row, My method
         private string tbl_rowItem(DataGridViewCellEventArgs e, String Column, DataGridView tbl) => tbl.Rows[e.RowIndex].Cells[Column].FormattedValue.ToString();
         //this method works to get row value of column, My method
@@ -93,7 +93,7 @@ namespace DeployManager
         private string InputBox(string Prompt, string Title, string DefaultResponse)
             => Microsoft.VisualBasic.Interaction.InputBox(Prompt, Title, DefaultResponse);
         public object[] rowBase(AppExec item) => new object[] { item.Name, item.Path, "", "", "", item.Id };
-        private int FindIndex_tbl(DataGridViewCellEventArgs e, DataGridView tbl) => FindItemIndex(tbl_rowItem(e, "ID", tbl));
+        private int FindIndex_tbl(DataGridViewCellEventArgs e, DataGridView tbl) => FindItemIndex(tbl_rowItem(e, resMsg.Column_id, tbl));
         private void ListAll_tbl(DataGridView tbl)
         {
             try
@@ -119,14 +119,14 @@ namespace DeployManager
                 ListAll_tbl(tbl);
                 return true;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
                 return false;
             }
         }
-        public void NameEvent(DataGridViewCellEventArgs e, DataGridView tbl)
+        public void TagEvent(DataGridViewCellEventArgs e, DataGridView tbl)
         {
-            string input = InputBox(resMsg.insert_name, Title_form, tbl_rowItem(e, "Name", tbl));         
+            string input = InputBox(resMsg.insert_name, Title_form, tbl_rowItem(e, resMsg.Column_tag, tbl));
             if (!input.Equals(""))
             {
                 DialogResult dr = MessageBox.Show(
@@ -135,7 +135,7 @@ namespace DeployManager
                MessageBoxIcon.Information);
 
                 if (dr == DialogResult.Yes)
-                {              
+                {
                     int ListIndex = FindIndex_tbl(e, tbl);
                     AppExec temp = AppItem_List[ListIndex];
                     temp.Name = input;
@@ -147,7 +147,7 @@ namespace DeployManager
 
         public void PathEvent(DataGridViewCellEventArgs e, DataGridView tbl)
         {
-            DialogResult dr1 = MessageBox.Show(resMsg.name3
+            DialogResult dr1 = MessageBox.Show(resMsg.confirmQe_newPath
                         ,
                         Title_form, MessageBoxButtons.YesNoCancel,
                         MessageBoxIcon.Information);
@@ -168,13 +168,13 @@ namespace DeployManager
         public void DeleteEvent(DataGridViewCellEventArgs e, DataGridView tbl)
         {
             DialogResult del = MessageBox.Show(
-                       resMsg.name4,
+                       resMsg.confirmQe_Delete,
                        Title_form, MessageBoxButtons.YesNoCancel,
                        MessageBoxIcon.Information);
 
             if (del == DialogResult.Yes)
             {
-                int ListIndex = FindIndex_tbl(e, tbl);               
+                int ListIndex = FindIndex_tbl(e, tbl);
                 Delete(ListIndex);
                 BackupAndList(tbl);
             }
@@ -182,7 +182,7 @@ namespace DeployManager
 
         public void DeployEvent(DataGridViewCellEventArgs e, DataGridView tbl)
         {
-            var file_path = tbl_rowItem(e, "Path", tbl);
+            var file_path = tbl_rowItem(e, resMsg.Column_path, tbl);
             var dir_path = new FileInfo(file_path).Directory.FullName;
             Process batch_exec = new Process();
             batch_exec.StartInfo.FileName = file_path;
@@ -192,7 +192,7 @@ namespace DeployManager
 
         public void PreviewEvent(DataGridViewCellEventArgs e, DataGridView tbl)
         {
-            string fullPath = tbl_rowItem(e, "Path", tbl);
+            string fullPath = tbl_rowItem(e, resMsg.Column_path, tbl);
             var FileInfo = new FileInfo(fullPath);
             // opens the folder in explorer
             Process.Start(@FileInfo.Directory.FullName);
@@ -200,16 +200,16 @@ namespace DeployManager
         public void IdEvent(DataGridViewCellEventArgs e, DataGridView tbl)
         {
 
-            string fullPath = tbl_rowItem(e, "Path", tbl);
+            string fullPath = tbl_rowItem(e, resMsg.Column_path, tbl);
             var FileInfo = new FileInfo(fullPath);
 
             MessageBox.Show(String.Format(
-                "[ Name File: ] \n{0}\n\n[ Directory: ] \n>{1}\n\n[ FullPath: ] \n{2}\n\n[ ID: ] \n{3}\n\n[ Description: ] \n{4}",
+                resMsg.Preview_format,
                 FileInfo.Name,
                 FileInfo.Directory.FullName,
                 fullPath,
-                tbl_rowItem(e, "ID", tbl),
-                tbl_rowItem(e, "Tag", tbl)
+                tbl_rowItem(e, resMsg.Column_id, tbl),
+                tbl_rowItem(e, resMsg.Column_tag, tbl)
                 ), Title_form);
         }
 
