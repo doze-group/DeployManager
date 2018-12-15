@@ -70,13 +70,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8F6066443B19479299580B6C7E2D5212"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C76A5E02D1957C86A0186C91B3A4FD31"
+        "OwnerKey" = "8:_A69A01E256C425C64F61B65343FCE4E6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -88,7 +82,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A69A01E256C425C64F61B65343FCE4E6"
+        "OwnerKey" = "8:_C76A5E02D1957C86A0186C91B3A4FD31"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_8F6066443B19479299580B6C7E2D5212"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -109,6 +109,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -125,6 +133,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -181,11 +197,6 @@
             "AssemblyAsmDisplayName" = "8:DeployManager.Entities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_A69A01E256C425C64F61B65343FCE4E6"
-                    {
-                    "Name" = "8:DeployManager.Entities.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:DeployManager.Entities.dll"
             "TargetName" = "8:"
@@ -212,11 +223,6 @@
             "AssemblyAsmDisplayName" = "8:DeployManager.Controllers, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_C76A5E02D1957C86A0186C91B3A4FD31"
-                    {
-                    "Name" = "8:DeployManager.Controllers.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:DeployManager.Controllers.dll"
             "TargetName" = "8:"
@@ -243,11 +249,6 @@
             "AssemblyAsmDisplayName" = "8:DeployManager.Helpers, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_CA648C60F6DFFE6D4B22CB86D63EC17C"
-                    {
-                    "Name" = "8:DeployManager.Helpers.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:DeployManager.Helpers.dll"
             "TargetName" = "8:"
@@ -274,11 +275,6 @@
             "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_D2B97BD24A3272E0E7F0BDBB889B695C"
-                    {
-                    "Name" = "8:System.Net.Http.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:System.Net.Http.dll"
             "TargetName" = "8:"
@@ -365,15 +361,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:DeployManager.Setup"
-        "ProductCode" = "8:{917979FA-5A64-45BA-8F5F-B5C3E352FD08}"
-        "PackageCode" = "8:{168CA9F5-F2CD-4597-9D32-91B28D938651}"
-        "UpgradeCode" = "8:{DF1424A5-D590-4E6C-B0C1-EBD454A5354D}"
+        "ProductCode" = "8:{EBF719B2-94D4-4A69-9845-6748E7A4C991}"
+        "PackageCode" = "8:{F621F337-F360-4AAA-B64C-8C2FF17F2A7F}"
+        "UpgradeCode" = "8:{91A019DB-6FA2-464F-AFFA-E0CCEE77B228}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.0.10"
         "Manufacturer" = "8:Rober19"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
