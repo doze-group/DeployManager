@@ -64,19 +64,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D2B97BD24A3272E0E7F0BDBB889B695C"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A69A01E256C425C64F61B65343FCE4E6"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_CA648C60F6DFFE6D4B22CB86D63EC17C"
+        "OwnerKey" = "8:_8F6066443B19479299580B6C7E2D5212"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -88,7 +76,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8F6066443B19479299580B6C7E2D5212"
+        "OwnerKey" = "8:_CA648C60F6DFFE6D4B22CB86D63EC17C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_A69A01E256C425C64F61B65343FCE4E6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_D2B97BD24A3272E0E7F0BDBB889B695C"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -116,6 +116,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
         "Release"
@@ -140,6 +148,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
     }
@@ -197,6 +213,11 @@
             "AssemblyAsmDisplayName" = "8:DeployManager.Entities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_A69A01E256C425C64F61B65343FCE4E6"
+                    {
+                    "Name" = "8:DeployManager.Entities.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:DeployManager.Entities.dll"
             "TargetName" = "8:"
@@ -223,6 +244,11 @@
             "AssemblyAsmDisplayName" = "8:DeployManager.Controllers, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_C76A5E02D1957C86A0186C91B3A4FD31"
+                    {
+                    "Name" = "8:DeployManager.Controllers.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:DeployManager.Controllers.dll"
             "TargetName" = "8:"
@@ -249,6 +275,11 @@
             "AssemblyAsmDisplayName" = "8:DeployManager.Helpers, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_CA648C60F6DFFE6D4B22CB86D63EC17C"
+                    {
+                    "Name" = "8:DeployManager.Helpers.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:DeployManager.Helpers.dll"
             "TargetName" = "8:"
@@ -275,6 +306,11 @@
             "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
+                    "_D2B97BD24A3272E0E7F0BDBB889B695C"
+                    {
+                    "Name" = "8:System.Net.Http.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:System.Net.Http.dll"
             "TargetName" = "8:"
@@ -362,11 +398,11 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:DeployManager.Setup"
         "ProductCode" = "8:{EBF719B2-94D4-4A69-9845-6748E7A4C991}"
-        "PackageCode" = "8:{F621F337-F360-4AAA-B64C-8C2FF17F2A7F}"
+        "PackageCode" = "8:{BED93990-E013-43AA-A644-494C1FDB3BD6}"
         "UpgradeCode" = "8:{91A019DB-6FA2-464F-AFFA-E0CCEE77B228}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.10"
@@ -379,7 +415,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:DeployManager"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:"
+        "ARPPRODUCTICON" = "8:_9E10F5D8CCB1430BAA291AB770303209"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -489,7 +525,7 @@
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
+            "Transitive" = "11:TRUE"
             "Target" = "8:_8F6066443B19479299580B6C7E2D5212"
             "Folder" = "8:_2BA52010823246A9BCD526A24FC7DF91"
             "WorkingFolder" = "8:_EF9CF8C8692F4915BDEB1CF156ADB1D3"
@@ -503,7 +539,7 @@
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
+            "Transitive" = "11:TRUE"
             "Target" = "8:_8F6066443B19479299580B6C7E2D5212"
             "Folder" = "8:_CEFE95FFEFE44800B3D7D765AF726671"
             "WorkingFolder" = "8:_EF9CF8C8692F4915BDEB1CF156ADB1D3"

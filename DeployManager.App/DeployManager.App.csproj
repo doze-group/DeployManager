@@ -105,7 +105,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="eryt.ico" />
-    <Content Include="Goodstuff-No-Nonsense-Free-Space-Rocket-launch.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -10,13 +10,13 @@ namespace DeployManager
 {
     public static class Helpers
     {
-        const string FILE_NAME = "./Data/Cache.data";
+        const string FILE_NAME = "Data/Cache.data";
         //C:\Users\%user%\AppData\Local\VirtualStore\Program Files (x86)\Rober19\DeployManager.Setup
 
         public static void c_folder()
         {
             // Specify the directory you want to manipulate.
-            string path = @"Data";
+            string path = "Data";
 
             try
             {
@@ -44,9 +44,9 @@ namespace DeployManager
 
         public static void Serialize<T>(this List<T> obj)
         {
+            c_folder();
             using (Stream stream = File.OpenWrite(FILE_NAME))
-            {
-                c_folder();
+            {                
                 var formatter = new BinaryFormatter();
                 formatter.Serialize(stream, obj);
             }
