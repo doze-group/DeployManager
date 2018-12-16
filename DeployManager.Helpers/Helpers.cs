@@ -8,16 +8,20 @@ using System.Threading.Tasks;
 
 namespace DeployManager
 {
+
+   
     public static class Helpers
     {
-        const string FILE_NAME = "Data/Cache.data";
-        //C:\Users\%user%\AppData\Local\VirtualStore\Program Files (x86)\Rober19\DeployManager.Setup
+        static string FILE_NAME = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "DeployManager\\Data") +"\\Cache.data";
+        
+        //ProgramData/DeployManager
 
         public static void c_folder()
         {
             // Specify the directory you want to manipulate.
-            string path = "Data";
-
+            var appData = Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData);
+            var path = Path.Combine(appData, "DeployManager\\Data");
+            Console.WriteLine(FILE_NAME);
             try
             {
                 // Determine whether the directory exists.

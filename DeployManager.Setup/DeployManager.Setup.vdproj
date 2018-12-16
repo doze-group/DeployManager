@@ -397,8 +397,8 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:DeployManager.Setup"
-        "ProductCode" = "8:{EBF719B2-94D4-4A69-9845-6748E7A4C991}"
-        "PackageCode" = "8:{BED93990-E013-43AA-A644-494C1FDB3BD6}"
+        "ProductCode" = "8:{A8F17D82-DEBC-415F-AAB9-3CD3414C8E4F}"
+        "PackageCode" = "8:{539980EB-2BF5-4CDB-80ED-384B7AF3CE25}"
         "UpgradeCode" = "8:{91A019DB-6FA2-464F-AFFA-E0CCEE77B228}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

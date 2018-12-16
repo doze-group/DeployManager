@@ -108,7 +108,7 @@ namespace DeployManager
             catch (Exception)
             {
                 if (AppItem_List.Count == 0) AppItem_List.Serialize();
-                MessageBox.Show("Error");
+               // MessageBox.Show("Error");
             }
 
         }
