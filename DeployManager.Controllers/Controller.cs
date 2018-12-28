@@ -200,7 +200,6 @@ namespace DeployManager
         }
         public void IdEvent(DataGridViewCellEventArgs e, DataGridView tbl)
         {
-
             string fullPath = tbl_rowItem(e, resMsg.Column_path, tbl);
             var FileInfo = new FileInfo(fullPath);
 

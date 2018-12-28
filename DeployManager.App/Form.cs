@@ -10,7 +10,7 @@ namespace DeployManager.App
 {
     public partial class Form : System.Windows.Forms.Form
     {
-        Controller App = new Controller();        
+        Controller App = new Controller();
         public Form()
         {
             InitializeComponent();
@@ -19,7 +19,7 @@ namespace DeployManager.App
             tbl_paths.Columns[0].Width = 250;
             tbl_paths.Columns[1].Width = 150;
         }
-       
+
 
         public void Clear_txtBox()
         {
@@ -42,7 +42,7 @@ namespace DeployManager.App
                 App.Create(appexec);
                 App.AppItem_List.Serialize();
                 tbl_paths.Rows.Add(App.rowBase(appexec));
-                
+
             }
             Clear_txtBox();
         }
@@ -52,7 +52,7 @@ namespace DeployManager.App
         private void tbl_paths_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
-            var item_col = App.tbl_colItem(e, tbl_paths);           
+            var item_col = App.tbl_colItem(e, tbl_paths);
 
             switch (item_col.Name)
             {
@@ -68,7 +68,7 @@ namespace DeployManager.App
                 case "Delete":
                     App.DeleteEvent(e, tbl_paths);
                     break;
-                case "Preview":              
+                case "Preview":
                     App.PreviewEvent(e, tbl_paths);
                     break;
                 case "ID":
@@ -78,9 +78,7 @@ namespace DeployManager.App
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            App.findPath(txt_path);
-        }
+        private void button2_Click(object sender, EventArgs e) => App.findPath(txt_path);
+
     }
 }
